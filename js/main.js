@@ -13,8 +13,8 @@ basketStarterEl.addEventListener('click', function (event) {
   else {
     showBasket();
   }
-});
-
+}); 
+ 
 basketEl.addEventListener('click', function (event) {
   event.stopPropagation();
 });
